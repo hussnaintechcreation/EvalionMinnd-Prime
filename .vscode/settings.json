@@ -1,0 +1,25 @@
+{
+    "workbench.editor.closeOnFileDelete": true,
+    "workbench.editor.centeredLayoutFixedWidth": true,
+    "workbench.editor.preferHistoryBasedLanguageDetection": true,
+    "workbench.editor.pinnedTabsOnSeparateRow": true,
+    "workbench.editor.revealIfOpen": true,
+    "workbench.editor.scrollToSwitchTabs": true,
+    "workbench.editor.sharedViewState": true,
+    "workbench.editor.showTabIndex": true,
+    "workbench.editor.autoLockGroups": {
+        "workflowStudio.asl": true,
+        "workbench.input.interactive": true,
+        "mainThreadWebview-markdown.preview": true,
+        "luna.editor": true,
+        "gitlens.rebase": true,
+        "repl": true,
+        "workbench.editors.gettingStartedInput": true,
+        "github-issues": true,
+        "aws-redshift-sql-notebook": true,
+        "jupyter-notebook": true,
+        "workbench.editor.chatSession": true,
+        "default": true
+    },
+    "workbench.editor.defaultBinaryEditor": "workbench.editor.chatSession"
+}
