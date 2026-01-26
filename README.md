@@ -1,37 +1,20 @@
-# EvalionMinnd-Prime
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-**EvalionMinnd-Prime** is the flagship AI-powered interview evaluation platform developed by **Hussnain Tech Vertex Pvt Ltd**. Engineered for precision and efficiency, this "Prime" version leverages advanced LLM logic to provide real-time candidate assessment and transcription.
+# Run and deploy your AI Studio app
 
-## 🚀 Overview
+This contains everything you need to run your app locally.
 
-EvalionMinnd-Prime streamlines the recruitment process by integrating cutting-edge AI models to evaluate technical and soft skills. Featuring a "Deep Space" tactical interface, it offers a seamless and immersive experience for both recruiters and candidates.
+View your app in AI Studio: https://ai.studio/apps/drive/1Vs0jdjLBD2bdCxuTiAAzBGii7arZrQ_l
 
-## 🛠️ Tech Stack
+## Run Locally
 
-- **Frontend:** React / Angular with TypeScript
-- **Styling:** Tailwind CSS & Framer Motion (Deep Space Theme)
-- **Backend:** Python FastAPI / Node.js
-- **AI Core:** Integration with Gemini & GPT-4o for real-time analysis
-- **Database:** PostgreSQL / MongoDB
+**Prerequisites:**  Node.js
 
-## ✨ Key Features
 
-- **Real-Time Evaluation:** Automated scoring and feedback during live sessions.
-- **Smart Transcription:** High-accuracy speech-to-text powered by advanced AI.
-- **3D Interactive UI:** Tactical dashboard with 3D branding and animated components.
-- **Dynamic Feedback Loop:** Instant reporting for recruiters to make data-driven decisions.
-
-## 📦 Getting Started
-
-### Prerequisites
-
-- Node.js (v18+) or Python (3.10+)
-- API Keys for Gemini/OpenAI
-- Database credentials
-
-### Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/hussnaintechcreation/EvalionMinnd-Prime.git](https://github.com/hussnaintechcreation/EvalionMinnd-Prime.git)
-# EvalionMinnd-Prime
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
