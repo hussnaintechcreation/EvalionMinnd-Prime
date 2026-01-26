@@ -1,0 +1,28 @@
+
+{
+  "name": "EvalionMind",
+  "short_name": "EvalionMind",
+  "id": "/",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0A0D18",
+  "theme_color": "#0A0D18",
+  "orientation": "portrait-primary",
+  "description": "EvalionMind: Ultra-premium AI Interview platform by HUSSNAIN TECH CREATION PVT LTD.",
+  "categories": ["productivity", "education", "business"],
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2040/2040504.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2040/2040504.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
