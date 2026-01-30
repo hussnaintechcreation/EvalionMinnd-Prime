@@ -36,6 +36,7 @@ import { BillingPage } from './components/pages/BillingPage';
 import { NetworkStatusGuard, ApiKeyGuard } from './components/SystemGuard';
 import { BiometricGate } from './components/BiometricGate';
 import { Cpu, RefreshCw, Activity, CheckCircle, AlertTriangle, X, Info } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 
 const motion = framerMotion as any;
 
@@ -291,6 +292,7 @@ export const App: React.FC = () => {
         </AnimatePresence>
       </main>
       <Footer onNavigate={navigateTo} />
+      <Analytics />
     </div>
   );
 };
