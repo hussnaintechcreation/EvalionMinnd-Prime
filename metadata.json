@@ -1,0 +1,9 @@
+{
+  "name": "EvaluationMind Version 1.0",
+  "description": "Zero-Trust AI-Autonomous Hiring OS",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
